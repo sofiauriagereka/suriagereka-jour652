@@ -1,50 +1,51 @@
-BODY {
-    font-family: 'Open Sans', arial, sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    color: #444
+/* Default font for body, headers, paragraphs, lists and list items */
+BODY{
+font-family: 'Open Sans', Arial, sans-serif;
+font-size: em;
+color: #444;
+font-weight: 400;
 }
 
-/*page width*/
-#container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  
-}
-/* Name style*/
-#name {
-    font-family: 'Open Sans', arial, sans-serif;
-    font-size: 3em;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: 1px solid #33458e;
-    width:60%;
-    min-width: 600px;
-    margin: 0 auto;
-    
+/* Name */
+#name h1 {
+font-size: 3em;
+color: #33485e;
+text-transform: uppercase;
+text-align: center;
 }
 
-/*Section titles*/
-.sectionheader {
-    font-family: 'Open Sans', arial, sans-serif;
-    font-size: 1.5em;
-    color: #33485;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 70%;
-    min-width: 300px;
-    text-align: center;
+/* My Title */
+strong {
+font-size: 1.5em;
+color: #33485e;
+text-transform: uppercase;
+font-weight: 400;
 }
 
-/*contact info styles*/
-.menu {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    display: inline;
+/* Section titles */
+h2 {
+font-size: 1.5em;
+background-color: #33485e;
+color: #fff;
+text-transform: uppercase;
+font-weight: 400;
+}
+
+/* Job titles */
+h3 {
+font-size: 1.5em;
+font-weight: 600;
+}
+
+/* Job organization */
+h4 {
+font-size: 1.5em;
+font-weight: 400;
+}
+
+/* Job dates */
+h5 {
+font-size: 1em;
+font-weight: 400;
+font-style: italic;
 }
