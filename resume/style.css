@@ -15,7 +15,7 @@ max-width: 1200px;
 margin: 0 auto;
 }
 
-/* Name */
+/* Name style */
 #name {
 font-size: 3em;
 color: #33485e;
@@ -28,14 +28,17 @@ margin: 0 auto;
 }
 
 /* title styles */
-#name {
+#title {
 font-size: 3em;
 text-transform: upperccase;
+font-size: 1.5em;
 text-align: center;
-border-bottom: 1px solid #33485e;
-width: 60%;
 color: #33485e;
-font-weight: 400;
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 /*contact info styles*/
@@ -43,6 +46,10 @@ font-weight: 400;
     margin: 0 auto;
     text-align: center;
     padding: 0px
+}
+/*contact info styles cont*/
+.contact {
+    display: inlines;
 }
 /* Section titles */
 .sectionheader {
