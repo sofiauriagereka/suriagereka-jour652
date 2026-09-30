@@ -1,0 +1,50 @@
+BODY {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #444
+}
+
+/*page width*/
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
+/* Name style*/
+#name {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #33458e;
+    width:60%;
+    min-width: 600px;
+    margin: 0 auto;
+    
+}
+
+/*Section titles*/
+.sectionheader {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1.5em;
+    color: #33485;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 70%;
+    min-width: 300px;
+    text-align: center;
+}
+
+/*contact info styles*/
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: inline;
+}
