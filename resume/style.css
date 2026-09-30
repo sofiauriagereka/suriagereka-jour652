@@ -1,51 +1,103 @@
-/* Default font for body, headers, paragraphs, lists and list items */
-BODY{
+/* new styles for my resume*/
+
+/* general styles for resume*/
+body {
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: em;
 color: #444;
 font-weight: 400;
 }
 
+/*page width*/
+#container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
 /* Name */
-#name h1 {
+#name {
 font-size: 3em;
 color: #33485e;
 text-transform: uppercase;
 text-align: center;
+border-bottom: 1px solid #33485e;
+width: 60%;
+min-width: 300px;
+margin: 0 auto;
 }
 
-/* My Title */
-strong {
-font-size: 1.5em;
+/* title styles */
+#name {
+font-size: 3em;
+text-transform: upperccase;
+text-align: center;
+border-bottom: 1px solid #33485e;
+width: 60%;
 color: #33485e;
-text-transform: uppercase;
 font-weight: 400;
 }
 
+/*contact info styles*/
+.menu{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px
+}
 /* Section titles */
-h2 {
+.sectionheader {
 font-size: 1.5em;
 background-color: #33485e;
 color: #fff;
 text-transform: uppercase;
 font-weight: 400;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+width: 70%;
+min-width: 300px;
 }
 
-/* Job titles */
-h3 {
+/* Job title style */
+.jobtitle {
 font-size: 1.5em;
 font-weight: 600;
 }
 
-/* Job organization */
-h4 {
+/* organization style */
+.organization {
 font-size: 1.5em;
 font-weight: 400;
 }
 
-/* Job dates */
-h5 {
+/*  dates style */
+.dates {
 font-size: 1em;
 font-weight: 400;
 font-style: italic;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+/*job description style*/
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* education style */
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* skills list style */
+#do {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
