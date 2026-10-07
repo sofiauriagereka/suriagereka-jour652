@@ -6,6 +6,7 @@ font-family: 'Open Sans', Arial, sans-serif;
 font-size: 1 em;
 color: #444;
 font-weight: 400;
+
 }
 
 /*page width!*/
@@ -13,7 +14,7 @@ font-weight: 400;
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
-bottom:50px
+bottom: 50px;
 }
 
 /* name styling */
@@ -26,6 +27,16 @@ border-bottom: 1px solid #33485e;
 width: 60%;
 min-width: 300px;
 margin: 0 auto;
+}
+/*description styling*/
+.description {
+font-size: 1em;
+font-weight: 200;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 /* title styling */
@@ -51,7 +62,8 @@ boldness: 400px;
 }
 /*contact info styling cont*/
 .contact {
-    display: inlines;
+    display: inline;
+    text-align: center;
 }
 /* Section titles */
 .sectionheader {
@@ -72,14 +84,13 @@ min-width: 300px;
 .jobtitle {
 font-size: 1.5em;
 font-weight: 600;
-boldness: 600px
+color: #000000;
 }
 
 /* organization styling */
 .organization {
 font-size: 1.25em;
 font-weight: 400;
-boldness:400 px
 }
 
 /*  dates styling */
@@ -97,6 +108,8 @@ margin-bottom: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    text-align: center;
+    display: inline;
 }
 /* education styling */
 #degrees {
@@ -111,4 +124,14 @@ margin-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    color:#000000;
+    font-weight: 600;
+
+}
+
+.top{
+    width:60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
