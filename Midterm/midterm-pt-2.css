@@ -1,0 +1,73 @@
+.content{
+    margin: 0 auto;   
+    width: 80%;
+    text-align: center;
+}
+
+#masthead{
+    text-align: center;
+    font-family: "Libre Caslon Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color:crimson;
+    
+}
+
+/* basically the same just changing the font color but easier for me to separate like this*/
+
+#subtitle-masthead{
+    text-align: center;
+    font-family: "Libre Caslon Condensed", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 25px;
+    color:darkgreen;
+}
+#headline{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+.subheadline{
+font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+#byline{
+font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;    
+}
+#date{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.subheading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+.caption{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-style:italic;
+    text-align: left;
+}
+blockquote{
+    font: 24px;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:crimson
+}
