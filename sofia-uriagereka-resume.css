@@ -1,0 +1,158 @@
+body{
+    background-color: #f2f4e6;
+}
+
+.content{
+  margin: 0 auto;
+  width: 900px; 
+}
+
+.headline{
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: bisque;
+  font-size: 40px;
+  white-space: nowrap;
+
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(18px, 3vw, 42px);
+    padding: 16px 0;
+    font-family: "Lora", serif;
+    font-size: 18px;
+  font-style: italic;
+  color: rgb(35, 67, 44);
+}
+.banner{
+    width: 100%;
+}
+img{
+    height: 500 px;
+    width: 300px;
+    margin:auto
+}
+
+.subheading{
+  font-family: "Lora", serif;
+  font-size: 25px;
+  font-style: italic;
+  color: bisque;
+  white-space: nowrap;
+}
+.contact-info{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  color: bisque;
+  white-space: nowrap; 
+}
+
+#work-container{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+
+h2{
+  font-family: "Lora", serif;
+  font-size:25px;
+  font-style: normal;
+  color: rgb(35, 67, 44);
+}
+.job-title{
+font-family: "Lora", serif;
+  font-size:20px;
+  font-style: normal;
+  color: rgb(35, 67, 44); 
+}
+
+h4{
+ font-family: "Lora", serif;
+  font-size:15px;
+  font-style: normal;
+  color: rgb(35, 67, 44);    
+}
+h3{
+font-family: "Lora", serif;
+  font-size:25px;
+  font-style: normal;
+  color: rgb(35, 67, 44);   
+}
+.job-location{
+    font-style:italic;
+    color: rgb(35, 67, 44); 
+}
+.job-description{
+    color: rgb(35, 67, 44); 
+     white-space: nowrap;
+}
+
+.date{
+    align-content: right;
+    padding-left: 60%;
+    color: rgb(35, 67, 44); 
+    white-space: nowrap;
+}
+
+#skills-languages{
+ font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+
+#language{
+     font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+  font-size: 20px;
+}
+
+#academic{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+  padding-bottom: 10%;
+}
+
+#contact{
+   text-align: center;
+   width:100%;
+}
+#contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(20px, 5vw, 25px);
+    padding: 16px 0;
+    font-family: "Lora", serif;
+    font-size: 20px;
+  font-style: normal;
+  
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(35, 67, 44);
+  color: white;
+  text-decoration: none; 
+    font-family: "Lora", serif;
+}
+    
+
+.button-link:hover {
+  background-color: rgb(19, 39, 25);
+}
