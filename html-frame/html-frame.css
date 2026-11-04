@@ -1,0 +1,217 @@
+body{
+    background-color: #dfdef5;
+}
+
+.content{
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.headline{
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(5, 5, 5);
+  font-size: 40px;
+}
+
+.subheading{
+  font-family: "Lora", serif;
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(5, 5, 5);
+}
+
+.report-links{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  color: bisque;
+  white-space: nowrap; 
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(18px, 3vw, 42px);
+    padding: 16px 0;
+    font-family: "Lora", serif;
+    font-size: 18px;
+  font-style: italic;
+  color: rgb(35, 67, 44);
+}
+
+html {
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -.03em;
+	-webkit-font-smoothing: antialiased;
+	
+	--color-font: #000;
+	--color-bg: #fff;
+	
+	.dark {
+		--color-font: #fff;
+		--color-bg: #000;
+	}
+	
+	color: var(--color-font);
+	background-color: var(--color-bg);
+	
+	* {
+		color: var(--color-font);
+		background-color: var(--color-bg);
+	}
+}
+
+body {
+	padding: 20px;
+}
+
+section {
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+}
+
+.section-title {
+	position: sticky;
+	top: 20px;
+    font-family: "Lora", serif;
+}
+
+.section-content {
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	display: flex;
+	gap: 30px;
+	width: 100%;
+	max-width: 20rem;
+}
+	
+aside {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+main {
+	padding-bottom: 2rem;
+}
+
+.dot {
+	--size: .5rem;
+	width: var(--size);
+	height: var(--size);
+	margin: calc((1rem - var(--size))/2);
+	border-radius: 50%;
+	background-color: var(--color-font);
+	flex-grow: 0;
+}
+
+.line {
+	flex-grow: 1;
+	margin: 8px 0;
+	width: 3px;
+	background-color: var(--color-font);
+}
+.timeline-heading{
+    font-family: "Lora", serif;
+    font-size:40px;
+    font-style: italic;
+    padding-top: 10%;
+    padding-left: 0%;
+}
+#pre-1960{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+#civilwar{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+#Franco{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+#transition{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+#post-conflict{
+  font-family: "Lora", serif;
+  font-size:medium;
+  font-style: italic;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+h2{
+  font-family: "Lora", serif;
+  font-size:25px;
+  font-style: normal;
+  color: rgb(35, 67, 44);
+}
+
+h4{
+ font-family: "Lora", serif;
+  font-size:15px;
+  font-style: normal;
+  color: rgb(35, 67, 44);    
+}
+h3{
+font-family: "Lora", serif;
+  font-size:25px;
+  font-style: normal;
+  color: rgb(35, 67, 44);   
+}
+.article{
+    font-family: "Lora", serif;
+    font-size:25px;
+    font-style: normal;
+    color: rgb(1, 14, 4);
+}
+.subheading{
+    font-family: "Lora", serif;
+    font-size:30px;
+    font-style: normal;
+    color: rgb(15, 83, 32); 
+}
+.article-image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(35, 67, 44);
+  color: white;
+  text-decoration: none; 
+    font-family: "Lora", serif;
+}
+    
+
+.button-link:hover {
+  background-color: rgb(19, 39, 25);
+}

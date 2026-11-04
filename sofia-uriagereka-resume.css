@@ -4,7 +4,8 @@ body{
 
 .content{
   margin: 0 auto;
-  width: 900px; 
+  max-width: 900px;
+  width: 100%;
 }
 
 .headline{
@@ -32,9 +33,9 @@ body{
     width: 100%;
 }
 img{
-    height: 500 px;
+    height: 500px;
     width: 300px;
-    margin:auto
+    margin:auto;
 }
 
 .subheading{
@@ -91,12 +92,10 @@ font-family: "Lora", serif;
 }
 .job-description{
     color: rgb(35, 67, 44); 
-     white-space: nowrap;
 }
 
 .date{
-    align-content: right;
-    padding-left: 60%;
+    text-align: right;
     color: rgb(35, 67, 44); 
     white-space: nowrap;
 }
@@ -109,12 +108,10 @@ font-family: "Lora", serif;
   padding-left: 0%;
 }
 
-#language{
+.language{
      font-family: "Lora", serif;
   font-size:medium;
   font-style: italic;
-  padding-top: 10%;
-  padding-left: 0%;
   font-size: 20px;
 }
 
@@ -131,7 +128,7 @@ font-family: "Lora", serif;
    text-align: center;
    width:100%;
 }
-#contact-links{
+.contact-links{
     display: flex;
     justify-content: center;
     align-items: center;
